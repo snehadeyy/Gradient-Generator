@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(92, 145, 229), rgb(152, 63, 198))
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+}
+#myButton1{
+    /* width: auto; */
+    background-color: #051937;
+    padding: 10px 30px;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+#myButton1:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#myButton2{
+    /* width: auto; */
+    background-color: #008793;
+    padding: 10px 30px;
+    border-radius: 2rem;
+    font-size: 18px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+#myButton2:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.copyCode{
+    cursor: pointer;
+    height: 70px;
+    padding: 10px 20px;
+    border-radius: 0.5rem;
+    border-left: 5px solid #fff;
+    font-size: 20px;
+    font-family: 'Poppins', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.197);
+}
+h2{
+    font-family: 'Poppins', Courier, monospace;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    bottom: -50px;
+    left: 30px;
+}
+.btn-section{
+    display: flex;
+    gap: 3.5rem;
+}
